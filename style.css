@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #8debf0, #f08dda);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 500px;
+  height: 550px;
+  filter: grayscale(100);
+  transition: 1.5s;
+}
+
+img:hover {
+  filter: grayscale(0);
+}
